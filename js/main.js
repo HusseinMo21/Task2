@@ -52,6 +52,10 @@ timeline.from('.second', {opacity : 0, duration: 1.5, y: 100, ease: 'inOut'})
 timeline.from('.third', {opacity : 0, duration: 1.8, y: 100, ease: 'inOut'})
 timeline.from('.demoBtn', {opacity : 1, duration: 2, x: 10,y:10 , ease: 'in'})
 
+$('.customBtn').hover(function(){
+    console.log('hover');
+    gsap.fromTo('.imageScroll' , {opacity : 0, duration: 1, rotate: 260 ,x: 100, ease: 'inOut'}, {opacity : 1, duration: 1, rotate: 20 ,x: 0, ease: 'inOut'})
+})
 // gsap.fromTo('.firstImage',{
 //     ScrollTrigger: {
 //         trigger: '.firstImage',
