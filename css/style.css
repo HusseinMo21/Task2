@@ -448,29 +448,37 @@ transition: all 0.4s ease-in-out;
     .firstimg{
         display: flex;
         flex-direction: column;
-        width: 100px;
-        height: 100px;
+        width: 350px;
+        height: 80px;
+    }
+    .firstimg img{
+        width: 100%;
+    }
+    .secondimg img{
+        width: 150px;
+        height: 150px;
     }
     .boxColllection{
         width: 30px;
 
     }
-    .firstImage{
-        width: 70px;
-    }
     .secImage{
         width: 20px;
+    }
+    .boxColllection{
+        width: 100px;
+        height: 450px;
     }
     .box{
         width: 80px;
         height: 80px;
-        font-size: 5px;
+        font-size: 8px;
     }
     .box p{
-        font-size: 5px !important;
+        font-size: 8px !important;
     }
     .customP{
-        margin-top: 500px;
+        margin-top: 290px;
     }
     .imageScroll{
         display: none;
